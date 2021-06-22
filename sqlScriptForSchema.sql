@@ -100,7 +100,6 @@ INSERT INTO EMP (empno, ename, job,mgr,hiredate,sal,comm,deptno) VALUES (7782, '
   
 INSERT INTO EMP (empno, ename, job,mgr,hiredate,sal,comm,deptno) VALUES (7788,'SCOTT','ANALYST',7566,to_date('4/19/1987','MM/DD/YYYY'),3000.00,null,20);
 
-
 INSERT INTO EMP (empno, ename, job,mgr,hiredate,sal,comm,deptno) VALUES (7839,'KING','PRESIDENT',null,to_date('11/17/1981','MM/DD/YYYY'),5000.00,null,10);
 
 INSERT INTO EMP (empno, ename, job,mgr,hiredate,sal,comm,deptno) VALUES (7844,'TURNER','SALESMAN',7698,to_date('9/8/1981','MM/DD/YYYY'),1500.00,0.00,30);
@@ -109,9 +108,7 @@ INSERT INTO EMP (empno, ename, job,mgr,hiredate,sal,comm,deptno) VALUES (7876,'A
 
 INSERT INTO EMP (empno, ename, job,mgr,hiredate,sal,comm,deptno) VALUES (7900,'JAMES','CLERK',7698,to_date('12/3/1981','MM/DD/YYYY'),950.00,null,30);
 
-
 INSERT INTO EMP (empno, ename, job,mgr,hiredate,sal,comm,deptno) VALUES (7902,'FORD','ANALYST',7566,to_date('12/3/1981','MM/DD/YYYY'),3000.00,null,20);
-
 
 INSERT INTO EMP (empno, ename, job,mgr,hiredate,sal,comm,deptno) VALUES (7934,'MILLER','CLERK',7782,to_date('1/23/1982','MM/DD/YYYY'),1300.00,null,10);
 
