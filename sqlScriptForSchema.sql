@@ -96,7 +96,7 @@ INSERT INTO EMP (empno, ename, job,mgr,hiredate,sal,comm,deptno) VALUES (7654, '
   
 INSERT INTO EMP(empno, ename, job,mgr,hiredate,sal,comm,deptno) VALUES (7698, 'BLAKE','MANAGER',7839,to_date('5/1/1981','MM/DD/YYYY'),2850.00,null,30);
   
-  INSERT INTO EMP (empno, ename, job,mgr,hiredate,sal,comm,deptno) VALUES (7782, 'CLARK','MANAGER',7839,to_date('6/9/1981','MM/DD/YYYY'),2450.00,null,10);
+INSERT INTO EMP (empno, ename, job,mgr,hiredate,sal,comm,deptno) VALUES (7782, 'CLARK','MANAGER',7839,to_date('6/9/1981','MM/DD/YYYY'),2450.00,null,10);
   
 INSERT INTO EMP (empno, ename, job,mgr,hiredate,sal,comm,deptno) VALUES (7788,'SCOTT','ANALYST',7566,to_date('4/19/1987','MM/DD/YYYY'),3000.00,null,20);
 
@@ -115,11 +115,7 @@ INSERT INTO EMP (empno, ename, job,mgr,hiredate,sal,comm,deptno) VALUES (7902,'F
 
 INSERT INTO EMP (empno, ename, job,mgr,hiredate,sal,comm,deptno) VALUES (7934,'MILLER','CLERK',7782,to_date('1/23/1982','MM/DD/YYYY'),1300.00,null,10);
 
-
-
-  
  
-  
 [VIII]--INSERT DATA INTO SALGRADE TABLE:-
 
 INSERT INTO salgrade(grade,losal,hisal)values(1,700,1200);
